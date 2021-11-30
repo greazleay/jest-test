@@ -1,10 +1,10 @@
 import { capitalize } from "@modules/capitalize";
 
-test('capitalize string', () => {
+test('Capitalize string', () => {
     expect(capitalize('industry')).toBe('Industry')
 });
 
-test('capitalize empty string', () => {
-    expect(capitalize('')).toBe(null)
+test('Capitalize empty string', () => {
+    expect(capitalize('')).toBe('')
 });
 
